@@ -1,9 +1,10 @@
-
+ 
 public class Test {
 
 	public static void main(String[] args) {
 		System.out.println("----MallardDuck-----");
 		MallardDuck md = new MallardDuck();
+		md.setQuackBehevior (new Squack());
 		md.display();//Look like a mallard
 		md.performQuack();//Quack! Quack!
 		md.performFly();//I'm flying with wing
